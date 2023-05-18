@@ -1,3 +1,4 @@
+```
 'use strict';
 
 var gulp = require('gulp');
@@ -34,3 +35,4 @@ exports.watch = function () {
     gulp.watch('./assets/js/components/**/*.js', buildJs);
     gulp.watch('./assets/scss/blocks/*.scss', buildBlocksSass);
 };
+```
